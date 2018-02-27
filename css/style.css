@@ -1070,7 +1070,7 @@ font-size: 1.5em;
 }
 
 #map_canvas{
-	background-color: #00ff00;
+	background-color: #7bc3d1;
 }
 
 #map_canvas .project {
@@ -1082,6 +1082,12 @@ font-size: 1.5em;
 #map_canvas .project a {
 	color: #fff;
 	font-size: 25px;
+}
+
+#map_canvas .project a:hover {
+	outline: 0;
+	color: #000;
+	background-color: transparent;
 }
 
 #map_canvas .project ul {

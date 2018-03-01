@@ -133,10 +133,10 @@ function changetext(number) {
     case 1:
       textInfo = '<div class="project">' +
         '<a href="https://photographai.com" style="font-size: 25px;"> PhotographAI</a>' +
-        '<ul style="font-size: 16px; margin-top: 20px">' +
+        '<ul style="font-size: 16px; margin-top: 0px">' +
         // '<li>An Artificial Intelligence company developing novel algorithms and high impact solutions for real world problems through robust API’s.</li>' +
-        '<li>Hands-on experience of entire software development stack as well as code reviews, designing system architecture and being an interim CTO.</li>' +
-        // '<li>Led team on single-page App dashboard for clients with AngularJS and Bootstrap 3, using a REST API backed by MEAN stack, deployed via AWS.</li>' +
+        '<li>Hands-on experience of entire software development stack as well as code reviews, designing system architecture.</li>' +
+        '<li>Led team on single-page App dashboard for clients with AngularJS and Bootstrap 3, using a REST API backed by MEAN stack, deployed via AWS.</li>' +
         '<li>Good Communication Skills, attitude towards leadership, authorisation and delegation, conflict resolution and negotiation and a very good team worker.</li>' +
         '<li>Experience in Implementing Organization Cloud Engineer strategy in various environments of Linux based servers with adopting cloud strategies based on AWS.</li>' +
         '<li>Worked on JavaScript, TypeScript, CSS, HTML, Node.js, Promises, architecture, git, mobile application, Angular and Aurelia.</li>' +
@@ -146,7 +146,7 @@ function changetext(number) {
     break;
     case 2:
       textInfo = '<div class="project">' +
-        '<a href="#" style="font-size: 25px;"> Engine Chief</a>' +
+        '<a href="#" style="font-size: 25px;" style="pointer-events: none;cursor: default;"> Engine Chief</a>' +
         '<ul style="font-size: 16px; margin-top: 20px">' +
         '<li>A marketplace to buy and sell used commercial vehicles in India.</li>' +
         '<li>Designed and developed a SAAS product for the company as a full stack developer</li>' +
@@ -161,7 +161,7 @@ function changetext(number) {
     break;
     case 3:
       textInfo = '<div class="project">' +
-        '<a href="#" style="font-size: 25px;"> Easyflaire</a>' +
+        '<a href="#" style="font-size: 25px;" style="pointer-events: none;cursor: default;"> Easyflaire</a>' +
         '<ul style="font-size: 16px; margin-top: 10px">' +
         '<li>An online fashion rental store. Rent high end designer apparels both western and ethnic.</li>' +
         '<li>Full stack web developer on the enterprise e-commerce product and lead a team of 3 interns.</li>' +

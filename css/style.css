@@ -1126,3 +1126,10 @@ font-size: 1.5em;
 	margin: 0px 0 0px 0;
 }
 
+@media only screen and (max-device-width: 480px) {
+.not-active {
+	pointer-events: none;
+	cursor: default;
+	text-decoration:none;
+  }
+}

@@ -157,6 +157,7 @@ hr {
 #nav {
 	z-index: 9999;
 	width: 100%;
+	overflow: hidden;
 }
 #nav.affix {
 	position: fixed;

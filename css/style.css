@@ -5,6 +5,10 @@ body, html {
 	color: #656c6d;
 	width: 100% !important;
 	height: 100% !important;
+	display:block;
+	white-space: wrap;
+	/* overflow-x: hidden; */
+	/* position: relative; */
 }
 h1 {
 	font-weight: 700;
@@ -62,6 +66,7 @@ ul, ol {
 }
 .clearfix {
 	display: block;
+	overflow: hidden;
 }
 ul, ol {
 	padding: 0;
@@ -151,6 +156,7 @@ hr {
 /* Navigation */
 #nav {
 	z-index: 9999;
+	width: 100%;
 }
 #nav.affix {
 	position: fixed;

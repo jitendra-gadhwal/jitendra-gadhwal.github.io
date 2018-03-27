@@ -24,6 +24,12 @@ $('#nav').affix({
       }
 });	
 
+$(document).ready(function(e) {
+  $(".navbar-nav li a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+});
+
 	// skills chart
 	$(document).ready(function(e) {
 
@@ -37,8 +43,8 @@ $('#nav').affix({
 	var index=0;
 	$(document).scroll(function(){
 		var top = $('#skills').height()-$(window).scrollTop();
-		console.log(top)
     let startAnimationPosition = 300;
+    console.log("Hello: "+ top)
     if($(window).width() < 720 && $(window).width() > 0){
       startAnimationPosition = 1800;
     }

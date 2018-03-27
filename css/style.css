@@ -168,9 +168,13 @@ hr {
 	background-color: #121d1f;
 	border-radius: 0px;
 	padding: 10px 0;
+	min-height: 60px;
 }
 .navbar-custom .navbar-brand {
 	font-weight: 600;
+	padding: 0 10px;
+	height: 60px;
+	line-height: 60px;
 }
 .navbar-custom .navbar-brand:focus {
 	outline: 0;
@@ -183,6 +187,25 @@ hr {
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
 	outline: 0;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: darkblue; /* Whatever Colour you want */
+}
+
+  .navbar-toggle {
+	/* (80px - button height 34px) / 2 = 23px */
+	margin-top: 10px;
+	width: 40px;
+	/* padding: 9px 10px !important; */
+	  /* border-color: #fff; */
+	  background:#7bc3d1 !important; /*Whatever colour you want for background */
+  }
+  
+
+.navbar-toggle .icon-bar
+{
+  background:#fff !important; /*Whatever colour you want for icon lines*/
+}
+
 .navbar-custom a {
 	color: #f4f5f6;
 }
